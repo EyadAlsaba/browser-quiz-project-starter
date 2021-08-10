@@ -18,7 +18,7 @@ export const showResult = () => {
   QUIZ_Interface_BOX.appendChild(showScore);
 
   theFinalScore >= 5
-    ? (showScore.textContent = `Hora🪄,  you passed !!!!your score ${theFinalScore}`)
+    ? (showScore.textContent = `Hora, you passed! your score ${theFinalScore}`)
     : (showScore.textContent = `Game Over🧙‍♂️! your score ${theFinalScore}`);
 
   const newButton = createDOMElement('button', { id: 'try-again' });
