@@ -66,11 +66,11 @@ button:hover {
   cursor: pointer;
 }
 .rightAnswer {
-  background-color: var(--yellow);
+  background-color: var(--correct);
   border: 0.2rem solid #fff;
-  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem var(--yellow),
-    0 0 0.8rem var(--yellow), 0 0 2.8rem var(--yellow),
-    inset 0 0 1.3rem var(--yellow);
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem var(--correct),
+    0 0 0.8rem var(--correct), 0 0 2.8rem var(--correct),
+    inset 0 0 1.3rem var(--correct);
 }
 /* */
 .centered {
